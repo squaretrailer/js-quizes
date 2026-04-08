@@ -10,11 +10,11 @@
 
 let array = [3, 7, 2, 9, 5];
 
-let largest = array[0];
+let smallest = array[0];
 for (let i = 1; i < array.length; i++) {
-  if (array[i] > largest) {
-    largest = array[i];
+  if (array[i] > smallest) {
+    smallest = array[i];
   }
 }
 
-console.log(largest);
+console.log(smallest);
